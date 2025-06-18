@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #daff21;
+    margin: 0;
+    padding: auto;
+    background-image: url("https://img.freepik.com/free-photo/flat-lay-medical-composition-with-clipboard-template_23-2148124827.jpg?t=st=1733117833~exp=1733121433~hmac=8ee1024479bf110ffc63147c8b01d50b8dcbe890e248874f713618e13be0706d&w=740");
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background: #8eedb4;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    box-sizing:content-box;
+}
+button {
+    background-color: #dc3545;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+button:hover { opacity: 0.9; }
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #555;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #28a745;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+button[type="reset"] {
+    background-color: #dc3545;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+#output table {
+    border-collapse: collapse;
+    width: 60%;
+    margin: 20px auto;
+}
+#output th, #output td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+#output th {
+    background-color: #f2f2f2;
+    color: #333;
+}
